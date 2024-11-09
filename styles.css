@@ -470,9 +470,6 @@ main::-webkit-scrollbar {
   height: 87%;
   margin: 0 auto;
 }
-/* #projects_wrapper > div:nth-child(1) {
-  border-right: 1px solid black;
-} */
 #projects_container .projects_content {
   width: 50%;
   padding: 5.934rem 5.123rem;
@@ -508,7 +505,9 @@ main::-webkit-scrollbar {
   height: 1.7em;
   margin-left: 1.55em;
 }
-
+#projects_wrapper > :nth-last-of-type(1) {
+  visibility: hidden;
+}
 /* CONTACTS SECTION */
 
 #contacts_wrapper {
